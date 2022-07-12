@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fascinate+Inline&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background-color: antiquewhite;
+    background-image: url(bg1.jpg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: rgb(148, 215, 224);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 69px;
+    background-color: rgb(76, 157, 172);
+    color: rgb(198, 214, 187);
+
+}
+.About{
+    height: 400px;
+    width: 400px;
+    /* display: flex; */
+    background-color: rgb(255, 255, 255);
+    margin: -426px 30px;
+    border-radius: 12px;
+    font-family: 'Indie Flower', cursive;
+    text-align:center ;
+    justify-content: center;
+    font-size: 50px;
+}
+.about1{
+    height: 400px;
+    width: 400px;
+    /* display: flex; */
+    
+    margin: 39px 3px;
+    border-radius: 12px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+
+.about2{
+    margin: -354px auto;
+}
+.socials{
+    height: 400px;
+    width: 400px;
+    /* display: flex; */
+    
+    margin: 27px 907px;
+    border-radius: 12px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color:pink;
+
+}
+.socialh1{
+    color: rgb(192 255 0 / 90%);
+}
+
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 48px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    background-color: rgb(7, 5, 5);
+    color: rgba(255, 255, 255, 0.932);
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    
+    border-radius: 12px;
+    margin: 23px auto;
+    background-image: url('bg3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 9px;
+    /* justify-content: center; */
+
+
+
+}
+
+.container .songlist h1 {
+    color: rgba(241, 21, 21, 0.445);
+}
+
+.bottom {
+    display: flex;
+    position: sticky;
+    height: 103px;
+    background: black;
+    color: white;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icons {
+    margin-top: 14px;
+    cursor: pointer;
+
+
+}
+
+#myprogressbar {
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.songitemcontainer{
+    margin-top: 74px;
+}
+
+.songItem {
+    height: 45px;
+    display: flex;
+    background-color: white;
+    color: black;
+
+    margin: 33px 18px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+
+.songItem img {
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 14px;
+
+}
+
+.timestamp {
+    margin: 0 23px;
+    
+}
+
+.timestamp i{
+    cursor: pointer;
+    
+}
+
+.songinfo{
+    position: relative;
+    left: -27vw;
+    bottom: 2vw;
+    font-family: 'Lobster', cursive;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+
